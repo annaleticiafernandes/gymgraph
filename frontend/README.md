@@ -1,16 +1,82 @@
-# React + Vite
+# GymGraph
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GymGraph is a web application designed to help weightlifting enthusiasts track their progress during workouts. Its main goal is to offer a simple, intuitive, and efficient way to register exercises, sets, weights, and repetitions, allowing users to monitor their progression over time.
 
-Currently, two official plugins are available:
+One of the project's unique features is the support for tracking workouts across different gyms. Users can log the weights used at each gym they visit, making it easier to adapt to different equipment and machines without losing their historical progress data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Objectives
 
-## React Compiler
+- **Log workouts:** Register exercises, sets, weights, and repetitions.
+- **Track progress:** Monitor user progression over time.
+- **Multi-gym management:** Easily manage different gyms.
+- **Personal Records (PRs):** Identify personal bests for performed exercises.
+- **Visual Analytics:** Provide dashboards and graphs to track performance.
+- **Mobile-First Experience:** Deliver an intuitive and optimized interface for mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript**
+- **Git & GitHub**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*New technologies will be added as the project evolves.*
+
+## Initial Project Structure
+
+```text
+frontend
+│
+└── src
+    │
+    ├── assets
+    ├── components
+    ├── features
+    ├── hooks
+    ├── layouts
+    ├── pages
+    ├── services
+    ├── types
+    ├── utils
+    │
+    ├── App.jsx
+    └── main.jsx
+MVP Roadmap
+[ ] Workout registration
+
+[ ] Exercise registration
+
+[ ] Workout execution/logging
+
+[ ] Completed workouts history
+
+[ ] Gym management
+
+[ ] Weight and repetition tracking
+
+[ ] Evolution dashboard
+
+[ ] Personal records (PRs) per exercise
+
+How to Run the Project
+Clone the repository:
+
+Bash
+git clone [https://github.com/annaleticiafernandes/gymgraph.git](https://github.com/annaleticiafernandes/gymgraph.git)
+Navigate to the project folder:
+
+Bash
+cd gymgraph
+Install dependencies:
+
+Bash
+npm install
+Run the application:
+
+Bash
+npm run dev
+Open the address provided by Vite in your browser (usually http://localhost:5173).
+
+Project Status
+GymGraph is currently under active development as part of a learning process in Front-end and Full-Stack development. It is being built using modern practices of software architecture, version control, and project organization.
