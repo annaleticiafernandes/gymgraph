@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import AppLayout from "./layouts/AppLayout/AppLayout"
 
 function App() {
 
   return (
-    <h1 className='text-4xl font-bold'>
-      GymGraph
-    </h1>
+    <h1>App</h1>
   )
 }
 
