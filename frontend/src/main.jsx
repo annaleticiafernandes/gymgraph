@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 import AppLayout from './layouts/AppLayout/AppLayout.jsx'
 import Home from './pages/Home/Home.jsx'
-import Workouts from './pages/Workouts/Workout.jsx'
+import Workouts from './pages/Workouts/Workouts.jsx'
 import Exercises from './pages/Exercises/Exercises.jsx'
 import History from './pages/History/History.jsx'
 import Settings from './pages/Settings/Settings.jsx'
